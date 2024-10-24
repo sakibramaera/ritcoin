@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Space Grotesk' !important;
+
+}
+@font-face {
+  font-family: 'Bruce Forever';
+  src: url('../font/BruceForever-Regular.woff2') format('woff2'),
+      url('../font/BruceForever-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../font/SpaceGrotesk-Medium.woff2') format('woff2'),
+    url('../font/SpaceGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../font/SpaceGrotesk-Bold.woff2') format('woff2'),
+    url('../font/SpaceGrotesk-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../font/SpaceGrotesk-Light.woff2') format('woff2'),
+    url('../font/SpaceGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../font/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+    url('../font/SpaceGrotesk-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../font/SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('../font/SpaceGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.bnrbg {
+  background-image: url(../icons/home/bnrbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+
+}
+
+/* .bnrbg2 {
+  background-image: url(../icons/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  background-position: center;
+
+} */
+/* .bnrbg3 {
+  background-image: url(../icons/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+  background-position: center;
+
+} */
+/* .bnrbg4 {
+  background-image: url(../icons/banner_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+  background-position: center;
+
+} */
+
+.slick-slide img {
+  max-width: none !important;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+.iframe_box{
+  width: 100% !important;
+  height:100% !important;
+}
+
+
+
+
+
+@media screen and (max-width: 900px){
+  .bnrbg {
+    min-height: 60vh;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .bnrbg {
+    min-height: 40vh;
+  }
+}
+
+
+
+
+
