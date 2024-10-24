@@ -17,6 +17,8 @@ const useStyles = makeStyles({
     marginTop: "5rem",
     "@media(max-width : 900px)": {
       marginTop: "0rem",
+      textAlign: "center", // Corrected text alignment in camelCase
+      flexDirection: "column",
     },
   },
 

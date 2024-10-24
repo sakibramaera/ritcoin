@@ -540,6 +540,19 @@ const Roadmap = () => {
                   }
                 />
               </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={ecomvision}
+                  alt={""}
+                  width={400}
+                  height={100}
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto",
+                    borderRadius: "10%",
+                  }}
+                />
+              </Box>
             </Box>
 
             <Box className={classes.boxRmp} mt={5}>
@@ -556,6 +569,19 @@ const Roadmap = () => {
                   text={
                     "Along with our online platform, we plan to open physical marts in various towns and cities,offering a seamless offline shopping experience and meeting local needs with personalized service."
                   }
+                />
+              </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={supermarkets}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                  }}
                 />
               </Box>
             </Box>
@@ -576,6 +602,19 @@ const Roadmap = () => {
                   }
                 />
               </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={smallfactory}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                  }}
+                />
+              </Box>
             </Box>
 
             <Box className={classes.boxRmp} mt={5}>
@@ -592,6 +631,19 @@ const Roadmap = () => {
                   text={
                     "Our vision is to create platforms and factories in every town and village where local talent can find jobs and enhance their skills. We aim to ensure that people can secure meaningful employment near their homes, allowing them to provide a better life for their families."
                   }
+                />
+              </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={jobs}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                  }}
                 />
               </Box>
             </Box>
@@ -612,6 +664,19 @@ const Roadmap = () => {
                   }
                 />
               </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={profit}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                  }}
+                />
+              </Box>
             </Box>
 
             <Box className={classes.boxRmp} mt={5}>
@@ -628,6 +693,21 @@ const Roadmap = () => {
                   text={
                     "To develop a user-friendly e-commerce website that offers a diverse range of products for customers from all regions, making online shopping easy and accessible."
                   }
+                />
+              </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={ecommshop}
+                  alt={""}
+                  width={410}
+                  height={120}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black", // Black border
+                    borderRadius: "10%", // Rounded corners
+                    marginTop: "35px",
+                  }}
                 />
               </Box>
             </Box>
@@ -648,6 +728,20 @@ const Roadmap = () => {
                   }
                 />
               </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={supermart2}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                    marginTop: "35px",
+                  }}
+                />
+              </Box>
             </Box>
 
             <Box className={classes.boxRmp} mt={5}>
@@ -664,6 +758,20 @@ const Roadmap = () => {
                   text={
                     "To establish small-scale factories in villages and towns, promoting local manufacturing,encouraging entrepreneurship, and generating employment opportunities."
                   }
+                />
+              </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={smallfactory2}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                    marginTop: "35px",
+                  }}
                 />
               </Box>
             </Box>
@@ -684,6 +792,20 @@ const Roadmap = () => {
                   }
                 />
               </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={jobs2}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                    marginTop: "18px",
+                  }}
+                />
+              </Box>
             </Box>
 
             <Box className={classes.boxRmp} mt={5}>
@@ -700,6 +822,20 @@ const Roadmap = () => {
                   text={
                     "To reward our loyal users by sharing 10% of our overall profits with them, fostering a community where everyone grows together."
                   }
+                />
+              </Box>
+              <Box className={classes.stepBox_img}>
+                <Image
+                  src={profit2}
+                  alt={""}
+                  width={400}
+                  style={{
+                    maxWidth: "100%",
+                    height: "280px",
+                    border: "2px solid black",
+                    borderRadius: "10%",
+                    marginTop: "18px",
+                  }}
                 />
               </Box>
             </Box>
