@@ -182,7 +182,7 @@ const Conduct = () => {
           />
         </Box>
 
-        <Box className={classes.mainWrap_box}>
+        {/* <Box className={classes.mainWrap_box}>
           <Box className={classes.list} component={"ul"}>
             <Box className={classes.listItem_wrp} component={"li"}>
               <Box className={classes.listItem}>
@@ -280,7 +280,7 @@ const Conduct = () => {
             </Box>
             <Box className={classes.listItem_wrp} component={"li"}></Box>
           </Box>
-        </Box>
+        </Box> */}
         <Box className={classes.btnWrap}>
           <Link className={classes.btn} href={""}>
             <Typography>Learn More</Typography>
