@@ -104,17 +104,17 @@ const Countribution = () => {
     <>
       <Box>
         <Box className={classes.heading}>
-          <Heading heading={"Private Sale"} />
+          <Heading heading={"1 Lac. coin Free-Free-Free"} />
         </Box>
-        <Box className={classes.comingSoon}>
+        {/* <Box className={classes.comingSoon}>
           <Box className={classes.comingSoonText}>
             <Text text={"Coming Soon"} />
           </Box>
-        </Box>
+        </Box> */}
         <Box className={classes.text__box}>
           <Text
             text={
-              "Join the RitCoin crypto Private Sale, engage with the project, and see your contribution"
+              "Join the RitCoin crypto Private , engage with the project, and see your contribution"
             }
           />
           <Text text={"grow to new heights."} />
