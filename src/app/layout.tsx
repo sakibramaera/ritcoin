@@ -11,11 +11,11 @@ import { ColorModeContext } from "@/context";
 import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
-const metadata : Metadata = {
-  title: "Mumblechat",
-  description:"mumblechat is a web3 messaging dapp with end to end encryption",
-  keywords: ["mumblechat","chat","web3","nextjs"]
-}
+const metadata: Metadata = {
+  title: "ritcoin",
+  description: "ritcoin is a web3 messaging dapp with end to end encryption",
+  keywords: ["ritcoin", "chat", "web3", "nextjs"],
+};
 
 // Define types for your custom palettes
 interface CustomPalette {
@@ -120,18 +120,23 @@ const RootLayout = ({
 
   return (
     <html lang="en">
-         <head>
-        <title>Mumblechat</title>
-        <meta name="description" content={"mumblechat is a web3 messaging dapp with end to end encryption"} />
+      <head>
+        <title>ritcoin</title>
+        <meta
+          name="description"
+          content={
+            "ritcoin is a web3 messaging dapp with end to end encryption"
+          }
+        />
       </head>
       <body className={inter.className}>
         {/* <Providers initialState={initialState}> */}
-          <ColorModeContext.Provider value={colorMode}>
-            <ThemeProvider theme={theme}>
-              <CssBaseline />
-              {children}
-            </ThemeProvider>
-          </ColorModeContext.Provider>
+        <ColorModeContext.Provider value={colorMode}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            {children}
+          </ThemeProvider>
+        </ColorModeContext.Provider>
         {/* </Providers> */}
       </body>
     </html>

@@ -1,4 +1,4 @@
-# mumblechat-landing-page
+# ritcoin-landing-page
 
 ## Getting Started
 

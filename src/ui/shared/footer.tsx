@@ -223,7 +223,7 @@ const Footer = () => {
                     <Link
                       className={classes.social__link}
                       target="_blank"
-                      href={"https://www.instagram.com/mumblechat/"}
+                      href={"https://www.instagram.com/ritcoin/"}
                     >
                       <Image src={instagram} alt={""} />
                     </Link>

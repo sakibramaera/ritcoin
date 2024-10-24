@@ -31,7 +31,7 @@ const USEOFTERMS = [
     id: 1,
     Title: "1. Introduction",
     Description:
-      "MumbleChat is committed to protecting your privacy. This Privacy Policy explains our data collection, use, and sharing practices.",
+      "Ritcoin is committed to protecting your privacy. This Privacy Policy explains our data collection, use, and sharing practices.",
   },
   {
     id: 2,
@@ -73,13 +73,13 @@ const USEOFTERMS = [
     id: 8,
     Title: "8. Cookies and Tracking Technologies",
     Description:
-      "We use cookies and similar technologies to collect information about your use of MumbleChat and to provide a better user experience.",
+      "We use cookies and similar technologies to collect information about your use of ritcoin and to provide a better user experience.",
   },
   {
     id: 9,
     Title: "9. Third-Party Services",
     Description:
-      "MumbleChat may contain links to third-party websites and services. We are not responsible for the privacy practices of these third parties.",
+      "ritcoin may contain links to third-party websites and services. We are not responsible for the privacy practices of these third parties.",
   },
   {
     id: 10,

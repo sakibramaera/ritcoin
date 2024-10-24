@@ -286,7 +286,7 @@ const Conduct = () => {
             <Typography>Learn More</Typography>
           </Link>
           {/* <Link className={classes.btn2} href={""}>
-                                    <Typography>MUMBLECHAT Paper</Typography>
+                                    <Typography>ritcoin Paper</Typography>
                                 </Link> */}
         </Box>
       </Box>
