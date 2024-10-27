@@ -120,11 +120,11 @@ export default function Sidebar() {
           <Navbar />
         </Box>
 
-        <Box className={classes.mob}>
+        {/* <Box className={classes.mob}>
           <LoginStyled href={"https://ico.mumblechat.com"} target="_blank">
             <Typography>Buy</Typography>
           </LoginStyled>
-        </Box>
+        </Box> */}
       </Box>
     </>
   );

@@ -252,7 +252,7 @@ const Footer = () => {
                     <Link
                       className={classes.social__link}
                       target="_blank"
-                      href={"https://t.me/mumblechat"}
+                      href={"#"}
                     >
                       <Image src={telegram} alt={""} />
                     </Link>
