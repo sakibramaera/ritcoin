@@ -3,7 +3,7 @@ import { Box, Typography, styled } from "@mui/material";
 import Header from "../shared/Header";
 import Bnr from "./bnr";
 import Countribution from "./countribution";
-import AdsAutoSlider from "./adsautoSlider";
+import AdsModal from "./adsModal";
 import AutoSlider from "./autoSlider";
 import Platform from "./platform";
 import Conduct from "./conduct";
@@ -11,6 +11,8 @@ import Roadmap from "./roadmap";
 import Faqs from "./faqs";
 import Footer from "../shared/footer";
 import Application from "./application";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Homecmp = () => {
   return (
@@ -21,10 +23,10 @@ const Homecmp = () => {
         }}
       >
         <Header />
-        {/* <Box component={"section"} id="private">
-            {" "}
-            <AdsAutoSlider />
-          </Box> */}
+        <Box component={"section"} id="private">
+          {" "}
+          <AdsModal />
+        </Box>
         <Bnr />
         <Countribution />
         <Platform />

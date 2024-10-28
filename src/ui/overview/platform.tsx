@@ -136,7 +136,7 @@ const Platform = () => {
               address={"0xaBd5.....F8416"}
               icon
               redirecr_url={
-                "https://ramascan.com/token/0x4b1853C1882ee5c50e5Cb3d7ff05334047AC66Bd?tab=contract"
+                "https://ramascan.com/token/0xaBd570785F17208bA9397d5Aea38357f058F8416?tab=contract"
               }
             />
           </Box>

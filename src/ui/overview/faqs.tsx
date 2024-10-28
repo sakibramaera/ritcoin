@@ -29,37 +29,37 @@ const Accordion_list = [
   {
     id: 1,
     title: "What is ritcoin?",
-    text: "In short, Ritcoin is the Whatsapp for Web3. Our chat app allows crypto wallet owners to message each other, and our integration toolkit allows Dapps to add a great communication experience to their products fast.",
+    text: "RitCoin (RT) is a secure ecommerce token on the Ramestta Blockchain, designed to reward active community members for tasks like joining social channels and supporting platform growth.",
   },
   {
     id: 2,
-    title: "Which blockchain can I log in to Ritcoin with?",
-    text: "Ritcoin is currently supporting all EVM (e.g., Ramestta, Ethereum, Binance Smart Chain, Polygon,RAMESTTA etc.), and we have plans to expand to other blockchains like Solana, Cosmos, Flow, Aptos, and Sui in the coming future.",
+    title: "How can users earn RT Tokens?",
+    text: "Users earn RT Tokens by joining social channels and contributing to platform activities.",
   },
   {
     id: 3,
-    title: "How does Ritcoin deliver messages between wallets?",
-    text: 'We deliver messages via "Communication Delivery Graph", which is a decentralized encryption network designed to protect the privacy of our users. ',
+    title: "What makes RT Token unique?",
+    text: "RT Token is unique because it fosters community growth and engagement on a decentralized network.",
   },
   {
     id: 4,
-    title: "Where will my data be stored?",
-    text: "We use both decentralized storage (e.g. IPFS, Arweave, etc.) and your local device. No messaging data will be stored on-chain due to security risks.",
+    title: "What is the primary purpose of RT Token?",
+    text: "The purpose of RT Token is to incentivize community participation and reward engagement.",
   },
   {
     id: 5,
-    title: "What are Ritcoin points?",
-    text: "Ritcoin points indicate your level of engagement as a Ritcoin user. We use the points to determine a user's eligibility for future rewards such as token airdrops.",
+    title: "On which blockchain is RT Token issued?",
+    text: "RT Token is issued on the Ramestta blockchain, supporting a decentralized, secure network.",
   },
   {
     id: 6,
-    title: "How do I collect Ritcoin points?",
-    text: "Bottom line is: Be active on Ritcoin! Almost everything you can do on Ritcoin will accumulate to points. Think chatting, logging in, sending reactions...etc. Some actions like referral gives you extra points, so just make sure to check the pointing guide in our app. Another way of collecting point is to become the shareholder of earning chatrooms, which allows you to earn points via contributing to the group chat.",
+    title: "What benefits do RT Token holders receive?",
+    text: "RT Token holders benefit from exclusive rewards and opportunities within the platform.",
   },
   {
     id: 7,
-    title: "How do I report an issue?",
-    text: "Email us at support@Ritcoin.com , or message @Ritcoin.",
+    title: "How quickly are RT Tokens distributed after eligibility?",
+    text: "Tokens are distributed instantly or within a specified period after eligibility criteria are verified.",
   },
 ];
 
