@@ -35,6 +35,19 @@ const useStyles = makeStyles({
     backgroundColor: "black",
     borderRadius: "9999px",
   },
+
+  image: {
+    // width: "100%",
+    height: "70vh",
+    width: "56vw",
+    borderRadius: "20px",
+    "@media(max-width : 600px)": {
+      // padding: "0rem 0rem",
+      maxWidth: "100%",
+      width: "300px",
+      height: "350px",
+    },
+  },
 });
 
 const AdsModal: React.FC = () => {
@@ -53,16 +66,7 @@ const AdsModal: React.FC = () => {
             <Button className={classes.btn} onClick={closeModal}>
               <CancelIcon />
             </Button>
-            <Image
-              src={brand1}
-              alt="Banner 2"
-              style={{
-                // maxWidth: "90%",
-                height: "70vh",
-                width: "56vw",
-                borderRadius: "20px", // Add border-radius here
-              }}
-            />
+            <Image src={brand1} alt="Banner 2" className={classes.image} />
           </Box>
         </Box>
       )}
