@@ -39,7 +39,7 @@ const useStyles = makeStyles({
   image: {
     // width: "100%",
     height: "70vh",
-    width: "56vw",
+    width: "50vw",
     borderRadius: "20px",
     "@media(max-width : 600px)": {
       // padding: "0rem 0rem",
